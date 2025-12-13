@@ -1,5 +1,5 @@
 context:
-  version: "0.8.0"
+  version: "0.9.0"
 
 package:
   name: diskus
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/sharkdp/diskus/archive/v${{ version }}.tar.gz
-  sha256: 9733570d64a1eafcf96fe233fd978ec3855c77705005037ad253c49a188fdf51
+  sha256: c4c9e4cd3cda25f55172130e3d6a58b389f0113fcefa96c73e4c80565547d1bf
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
